@@ -16,7 +16,6 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@wxperia/liquid-glass-vue": "^1.0.9",
     "vue": "^3.5.42"
   },
   "devDependencies": {

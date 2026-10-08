@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@wxperia/liquid-glass-vue':
-        specifier: ^1.0.9
-        version: 1.0.9(typescript@6.0.3)
       vue:
         specifier: ^3.5.42
         version: 3.5.43(typescript@6.0.3)
@@ -730,9 +727,6 @@ packages:
         optional: true
       vue:
         optional: true
-
-  '@wxperia/liquid-glass-vue@1.0.9':
-    resolution: {integrity: sha512-uCGz2GIxhjMY6OshbYUmu+mNKhwiaLb5tdeeM7fdCXhrSrIqxPAirvZ15BtGfTi0yYKmodU6ssBIdjLg0PUhag==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -2344,12 +2338,6 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
       vue: 3.5.43(typescript@6.0.3)
-
-  '@wxperia/liquid-glass-vue@1.0.9(typescript@6.0.3)':
-    dependencies:
-      vue: 3.5.43(typescript@6.0.3)
-    transitivePeerDependencies:
-      - typescript
 
   acorn-jsx@5.3.2(acorn@8.19.0):
     dependencies:
