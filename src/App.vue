@@ -38,7 +38,7 @@ body,
 
 body {
   min-height: 100vh;
-  background: #17181c;
+  background: #19171c;
   color: #fff;
   font-family:
     Inter,
@@ -53,15 +53,15 @@ body {
   min-height: 100vh;
   background:
     radial-gradient(circle at 20% 20%,
-      rgba(90, 90, 110, 0.18),
+      rgba(47, 43, 53, 0.18),
       transparent 35%),
     radial-gradient(circle at 80% 80%,
-      rgba(60, 80, 100, 0.15),
+      rgba(25, 19, 31, 0.15),
       transparent 35%),
     linear-gradient(135deg,
-      #111216 0%,
-      #1b1c21 50%,
-      #15161a 100%);
+      #141116 0%,
+      #131114 50%,
+      #161318 100%);
 }
 
 .centre {
