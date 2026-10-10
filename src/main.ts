@@ -2,13 +2,13 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import HomeView from './views/HomeView/HomeView.vue'
 import EautopianView from './views/EautopianView/EautopianView.vue'
-import { createMemoryHistory, createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 
 
 const routes = [
     { path: '/', component: HomeView },
     { path: '/eautopian', component: EautopianView },
-    { path: '/:pathMatch(.*)*', redirect: '/' }
+    { path: '/:pathMatch(.*)*', redirect: '/' },
 ]
 
 export const router = createRouter({
