@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0;url=https://fever.moe" />
-    <script>
-      window.location.replace('https://fever.moe');
-    </script>
-  </head>
-  <body>
-    <a href="https://fever.moe">Go to fever.moe</a>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    const path = window.location.pathname
+    window.location.replace('/?p=' + encodeURIComponent(path))
+  </script>
+</head>
+
+<body></body>
+
 </html>
