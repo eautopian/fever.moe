@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <title>Redirecting...</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0;url=https://fever.moe" />
     <script>
-      const path = window.location.pathname;
-      const search = window.location.search;
-      const hash = window.location.hash;
-
-      sessionStorage.redirect = path + search + hash;
-
-      window.location.replace(
-        window.location.origin +
-          window.location.pathname.split("/").slice(0, 2).join("/") +
-          "/"
-      );
+      window.location.replace('https://fever.moe');
     </script>
   </head>
-  <body></body>
+  <body>
+    <a href="https://fever.moe">Go to fever.moe</a>
+  </body>
 </html>
